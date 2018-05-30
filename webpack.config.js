@@ -5,7 +5,7 @@ var UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 var webpack = require('webpack')
 
 config.plugins.push(new HtmlWebpackPlugin({
-  title: 'iamnobilis',
+  title: 'skald',
   template: 'index.html.ejs',
   inject: 'body',
   filename: 'index.html',

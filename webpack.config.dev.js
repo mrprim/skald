@@ -4,7 +4,7 @@ var webpack = require('webpack')
 var BundleCleaner = require('webpack-clean-obsolete-chunks')
 
 config.plugins.push(new HtmlWebpackPlugin({
-  title: 'iamnobilis **DEVELOPMENT**',
+  title: 'skald **DEVELOPMENT**',
   template: 'index.html.ejs',
   inject: 'body',
   filename: 'index.html'

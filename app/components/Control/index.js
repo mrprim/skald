@@ -5,8 +5,7 @@ import './index.scss'
 
 const Control = ({ handleSubmit }) => {
   return (
-    <Form onSubmit={handleSubmit}>
-      Control
+    <Form className='control' onSubmit={handleSubmit}>
       <Field name='control' component='input' type='text' />
     </Form>
   )

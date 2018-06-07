@@ -1,7 +1,7 @@
-import {createStore, applyMiddleware, compose} from 'redux'
+import { createStore, applyMiddleware, compose } from 'redux'
 import reducer from './reducers/'
 import invariant from 'redux-immutable-state-invariant'
-import {createLogger} from 'redux-logger'
+import { createLogger } from 'redux-logger'
 import sagaMiddleware from './middleware'
 
 export default function configureStore () {
